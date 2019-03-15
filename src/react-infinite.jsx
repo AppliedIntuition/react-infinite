@@ -182,7 +182,7 @@ class Infinite extends React.Component<
           {
             height: this.computedProps.containerHeight,
             overflowX: 'hidden',
-            overflowY: 'scroll',
+            overflowY: 'overlay',
             WebkitOverflowScrolling: 'touch'
           },
           this.computedProps.styles.scrollableStyle || {}
